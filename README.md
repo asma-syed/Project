@@ -43,4 +43,5 @@ The first step taken to realise the project was to define the project management
 Step 2
 
 A risk assessment was developed to evaluate the events that could negatively impact the project 
+![risk assessment](https://user-images.githubusercontent.com/82107383/122806625-78f8ed00-d2c2-11eb-860a-b6a88bb9acdf.PNG)
 
