@@ -51,6 +51,7 @@ The next step was to define the project management framework, Agile Scrum Framew
 Step 3
 
 A risk assessment was developed to evaluate the events that could negatively impact the project 
+![risk assessment](https://user-images.githubusercontent.com/82107383/122806625-78f8ed00-d2c2-11eb-860a-b6a88bb9acdf.PNG)
 
 ![risk assessment](https://user-images.githubusercontent.com/82107383/122806625-78f8ed00-d2c2-11eb-860a-b6a88bb9acdf.PNG)
 
