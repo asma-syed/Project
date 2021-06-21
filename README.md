@@ -1,3 +1,5 @@
+# Project
+
 Project 2 - Avanade Practical Project
 
 
@@ -41,4 +43,4 @@ The first step taken to realise the project was to define the project management
 Step 2
 
 A risk assessment was developed to evaluate the events that could negatively impact the project 
-# Project
+
