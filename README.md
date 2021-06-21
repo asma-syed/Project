@@ -34,13 +34,36 @@ REQUIREMENTS
 
 APPROACH
 
-Step 1
+Step 1 
 
-The first step taken to realise the project was to define the project management framework, Agile Scrum Framework. A Kanban board was created to identify project requirement and project backlog with user stories.
-
-![image](https://user-images.githubusercontent.com/82107383/122572642-d6343a80-d045-11eb-909a-5fb43f41577b.png)
+A service that creates Aliases to concil ones true identity was developed by having:
+- Service 2 generating random names from a collection of 20 names 
+- Service 3 generating random suranmes from a collecion of 20 surnames
+- Service 4 combining names and surnames services to generate the Alias
+The service's backbone is composed by Service 1, which is the frontend of the application
 
 Step 2
 
+The next step was to define the project management framework, Agile Scrum Framework. A Kanban board was created to identify project requirement and project backlog with user stories.
+
+![image](https://user-images.githubusercontent.com/82107383/122572642-d6343a80-d045-11eb-909a-5fb43f41577b.png)
+
+Step 3
+
 A risk assessment was developed to evaluate the events that could negatively impact the project 
 
+![risk assessment](https://user-images.githubusercontent.com/82107383/122806625-78f8ed00-d2c2-11eb-860a-b6a88bb9acdf.PNG)
+
+Step 4
+
+Once evaluating the potential risks, the service's code was written to generate the Aliases as shown below 
+
+![Frontend](https://user-images.githubusercontent.com/82107383/122808323-a9da2180-d2c4-11eb-9c7e-45ef613e0a08.PNG)
+
+Step 5
+
+The code was tested to ensure that the code is fully functional and it does not break
+
+![code coverage](https://user-images.githubusercontent.com/82107383/122810951-d6436d00-d2c7-11eb-834b-d4b33e69f3ec.PNG)
+
+https://user-images.githubusercontent.com/82107383/122810802-abf1af80-d2c7-11eb-9f65-aea7ef70d8c3.mp4
