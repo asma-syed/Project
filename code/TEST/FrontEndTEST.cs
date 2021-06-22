@@ -27,8 +27,8 @@ namespace TEST
         }
         private AppSettings appSettings = new AppSettings()
            {
-              serviceFourURL = "https://asma-alias-namesandsurnames3.azurewebsites.net"
-           };
+              serviceFourURL = "https://asma-alias-merge.azurewebsites.net"
+        };
 
         [Fact]
         public async void Test4()
@@ -37,7 +37,7 @@ namespace TEST
             var options = new Mock<IOptions<AppSettings>>();
             options.Setup(x => x.Value).Returns(appSettings);
             var mockHttp = new MockHttpMessageHandler();
-            mockHttp.When("https://asma-alias-namesandsurnames3.azurewebsites.net/namesandsurnames")
+            mockHttp.When("https://asma-alias-merge.azurewebsites.net/namesandsurnames")
                 .Respond("text/plain", "Federico Pentola");
 
             var client = new HttpClient(mockHttp);
@@ -58,7 +58,7 @@ namespace TEST
             var options = new Mock<IOptions<AppSettings>>();
             options.Setup(x => x.Value).Returns(appSettings);
             var mockHttp = new MockHttpMessageHandler();
-            mockHttp.When("https://asma-alias-namesandsurnames3.azurewebsites.net/namesandsurnames")
+            mockHttp.When("https://asma-alias-merge.azurewebsites.net/namesandsurnames")
                 .Respond("text/plain", "Random");
 
 
