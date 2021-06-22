@@ -12,7 +12,6 @@ namespace TEST
             //Arrange
             var alias = new SurnamesController();
 
-
             //act
             var returnValue1 = alias.Get();
 

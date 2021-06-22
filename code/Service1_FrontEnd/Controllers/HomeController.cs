@@ -13,15 +13,6 @@ namespace Service1_FrontEnd.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly ILogger<HomeController> _logger;
-        //private IConfiguration Configuration;
-
-        /*public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
-        {
-
-             Configuration = configuration;
-        } */
-
         private AppSettings Configuration;
         private HttpClient _client;
         public HomeController(IOptions<AppSettings> settings, HttpClient client)
@@ -44,28 +35,4 @@ namespace Service1_FrontEnd.Controllers
         }
     }
 }
-/*
-[ApiController]
-[Route("[controller]")]
-public class HomeController : ControllerBase
-{
-    private readonly ILogger<HomeController> _logger;
-    private HttpClient _client;
-
-    public HomeController(ILogger<HomeController> logger, HttpClient client)
-    {
-        _logger = logger;
-        _client = client;
-    }
-
-    [HttpGet]
-    public async Task<IActionResult> Get()
-    {
-        string serviceFour = "https://localhost:44322/namesandsurnames";
-        var merged_serviceFour = await _client.GetStringAsync(serviceFour);
-        return Ok(merged_serviceFour);
-    }
-}
-}
-*/
 

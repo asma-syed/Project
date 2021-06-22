@@ -10,8 +10,6 @@ namespace TEST
         public void Test1()
         {
 
-            ////NamesController hc = new NamesController();
-
             //Arrange
             var aliasGen = new NamesController();
 
@@ -21,11 +19,6 @@ namespace TEST
             //assert
             Assert.NotNull(returnValue);
             Assert.IsType<ActionResult<string>>(returnValue);
-
-            //Assert.Contains(random, "Federico");
-            //var Random = new System.Random();
-            //Random.Next<bool>(true, false);
-            //Assert.InRange(Random.Next<string>("Federico"));
 
 
         }

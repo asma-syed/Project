@@ -19,8 +19,6 @@ namespace TEST
     public class FrontEndTEST
     {
         private HomeController homeController;
-
-        //private readonly ILogger<HomeController> _logger;
         public FrontEndTEST()
         {
 
@@ -48,7 +46,6 @@ namespace TEST
 
             //Assert
             Assert.NotNull(response);
-            //Assert.IsType<ViewResult>(response);
         }
        
         [Fact]

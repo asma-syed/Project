@@ -13,47 +13,6 @@ namespace TEST
 {
     public class MergedTEST
     {
-        //private NamesandSurnamesController namesandSurnamesController;
-        //private Mock<IConfiguration> mockConfig;
-
-        //public MergedTEST()
-        //{
-        //    mockConfig = new Mock<IConfiguration>();
-        //    namesandSurnamesController = new NamesandSurnamesController(mockConfig.Object);
-        //}
-
-        //[Fact]
-        //public void Test3()
-        //{
-        //    //act
-        //    var returnValue2 = namesandSurnamesController.Get();
-
-        //    //assert
-        //    Assert.NotNull(returnValue2);
-        //    //Assert.IsType<ActionResult<string>>(returnValue2);
-        //}
-
-        //private AppSettings appSettings = new AppSettings()
-        //{
-        //    namesServiceURL = "https://asma-alias-names.azurewebsites.net",
-        //    surnamesServiceURL = "https://asma-alias-surnames2.azurewebsites.net"
-        //};
-
-        //[Fact]
-        //public async void GetTest()
-        //{
-        //    var options = new Mock<IOptions<AppSettings>>();
-        //    options.Setup(x => x.Value).Returns(appSettings);
-
-        //    NamesandSurnamesController namesandSurnamesController = new NamesandSurnamesController(options.Object);
-        //    var namesandSurnamesControllerResult = await namesandSurnamesController.Get();
-
-        //    Assert.NotNull(namesandSurnamesControllerResult);
-        //    Assert.IsType<OkObjectResult>(namesandSurnamesControllerResult);
-        //    //Assert.IsType<ActionResult<string>>(namesandSurnamesControllerResult);
-
-        //}
-
         private NamesandSurnamesController namesandSurnamesController;
 
         private AppSettings appSettings = new AppSettings()

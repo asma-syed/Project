@@ -10,38 +10,6 @@ using System.Threading.Tasks;
 
 namespace Service4_NamesandSurnames.Controllers
 {
-    //[ApiController]
-    //[Route("[controller]")]
-    //public class NamesandSurnamesController : ControllerBase
-    //{
-    //    //private IConfiguration Configuration;
-    //    //public NamesandSurnamesController(IConfiguration configuration)
-    //    //{
-    //    //    Configuration = configuration;
-    //    //}
-
-    //    private AppSettings Configuration;
-    //    public NamesandSurnamesController(IOptions<AppSettings> settings)
-    //    {
-    //        Configuration = settings.Value;
-    //    }
-
-    //    [HttpGet]
-    //    public async Task<IActionResult> Get()
-    //    {
-    //        //var namesService = "https://localhost:44384/names";
-    //        var namesService = $"{Configuration.namesServiceURL}/names";
-    //        var serviceTwo = await new HttpClient().GetStringAsync(namesService);
-
-    //        //var surnameService = "https://localhost:44377/surnames";
-    //        var surnamesService = $"{Configuration.surnamesServiceURL}/surnames";
-    //        var serviceThree = await new HttpClient().GetStringAsync(surnamesService);
-
-    //        var mergedServices = serviceTwo + serviceThree;
-    //        return Ok(mergedServices);
-    //    }
-    //}
-
     [ApiController]
     [Route("[controller]")]
     public class NamesandSurnamesController : ControllerBase
