@@ -5,10 +5,10 @@ on:
     - main
 env:
   AZURE_WEBAPP_NAME: asma-Alias-names-win
-  AZURE_WEBAPP_PACKAGE_PATH: ./code/Service2_Names\publish
+  AZURE_WEBAPP_PACKAGE_PATH: Service2_Names\publish
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
-  WORKING_DIRECTORY: ./code/Service2_Names
+  WORKING_DIRECTORY: Service2_Names
 jobs:
   build:
     runs-on: windows-latest
