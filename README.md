@@ -71,5 +71,11 @@ Step 6
 
 Terraform was used as the Iaas to create and manage the resources, services, and database, storing alias objects, in Azure.
 
+![Database](https://user-images.githubusercontent.com/82107383/123114416-30af0b80-d437-11eb-9ca3-ba476e5ee988.PNG)
+
+Step 7
+
+Services were deployed throught GitHub Action 
+
 
 
