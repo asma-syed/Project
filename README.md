@@ -36,11 +36,16 @@ APPROACH
 
 Step 1 
 
-A service that creates Aliases to concil ones true identity was developed by having:
+A service that creates Aliases to conceal one's true identity was developed by having:
 - Service 2 generating random names from a collection of 20 names 
 - Service 3 generating random suranmes from a collecion of 20 surnames
 - Service 4 combining names and surnames services to generate the Alias
 The service's backbone is composed by Service 1, which is the frontend of the application
+
+The Service architecture is shown in the image below
+
+![AliasGenerator Service Structure](https://user-images.githubusercontent.com/82107383/123148627-5d274f80-d458-11eb-88fc-4e08d4fd2a97.PNG)
+
 
 Step 2
 
@@ -48,11 +53,13 @@ The next step was to define the project management framework, Agile Scrum Framew
 
 ![image](https://user-images.githubusercontent.com/82107383/122572642-d6343a80-d045-11eb-909a-5fb43f41577b.png)
 
+
 Step 3
 
 A risk assessment was developed to evaluate the events that could negatively impact the project 
 
 ![risk assessment](https://user-images.githubusercontent.com/82107383/123110592-263f4280-d434-11eb-9b0e-7d9b9071a016.PNG)
+
 
 Step 4
 
@@ -63,15 +70,17 @@ Once the potential risks were evaluated, the service's code was written to gener
 
 Step 5
 
-The code was then tested to ensure that the code is fully functional and it does not break. A table contaning code coverages can be seen below
+The code was then tested to ensure that the code is fully functional and it does not break. A table containing code coverages can be seen below
 
 ![code coverage](https://user-images.githubusercontent.com/82107383/122810951-d6436d00-d2c7-11eb-834b-d4b33e69f3ec.PNG)
+
 
 Step 6 
 
 Terraform was used as the Iaas to create and manage the resources, services, and database, storing alias objects, in Azure.
 
 ![Database](https://user-images.githubusercontent.com/82107383/123114416-30af0b80-d437-11eb-9ca3-ba476e5ee988.PNG)
+
 
 Step 7
 
@@ -81,7 +90,7 @@ Here is an example of the working app
 
 https://user-images.githubusercontent.com/82107383/123139422-19c7e380-d44e-11eb-91c6-b4e37ae68f6d.mp4
 
-Here is an exaple of the CI pipeline
+Here is an example of the CI pipeline
 
 https://user-images.githubusercontent.com/82107383/123139879-95c22b80-d44e-11eb-8df2-3ab0b83bae13.mp4
 
