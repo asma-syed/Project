@@ -52,18 +52,24 @@ Step 3
 
 A risk assessment was developed to evaluate the events that could negatively impact the project 
 
-![risk assessment](https://user-images.githubusercontent.com/82107383/122806625-78f8ed00-d2c2-11eb-860a-b6a88bb9acdf.PNG)
+![risk assessment](https://user-images.githubusercontent.com/82107383/123110592-263f4280-d434-11eb-9b0e-7d9b9071a016.PNG)
 
 Step 4
 
-Once evaluating the potential risks, the service's code was written to generate the Aliases as shown below 
+Once the potential risks were evaluated, the service's code was written to generate Aliases as shown below 
 
-![Frontend](https://user-images.githubusercontent.com/82107383/122808323-a9da2180-d2c4-11eb-9c7e-45ef613e0a08.PNG)
+![Frontend](https://user-images.githubusercontent.com/82107383/123111522-e2007200-d434-11eb-971a-5a432db09105.PNG)
+
 
 Step 5
 
-The code was tested to ensure that the code is fully functional and it does not break
+The code was then tested to ensure that the code is fully functional and it does not break. A table contaning code coverages can be seen below
 
 ![code coverage](https://user-images.githubusercontent.com/82107383/122810951-d6436d00-d2c7-11eb-834b-d4b33e69f3ec.PNG)
 
-https://user-images.githubusercontent.com/82107383/122810802-abf1af80-d2c7-11eb-9f65-aea7ef70d8c3.mp4
+Step 6 
+
+Terraform was used as the Iaas to create and manage the resources, services, and database, storing alias objects, in Azure.
+
+
+
