@@ -75,7 +75,17 @@ Terraform was used as the Iaas to create and manage the resources, services, and
 
 Step 7
 
-Services were deployed throught GitHub Action 
+Services were deployed throught GitHub Action. 
+
+Here is an example of the working app 
+
+https://user-images.githubusercontent.com/82107383/123139422-19c7e380-d44e-11eb-91c6-b4e37ae68f6d.mp4
+
+Here is an exaple of the CI pipeline
+
+https://user-images.githubusercontent.com/82107383/123139879-95c22b80-d44e-11eb-8df2-3ab0b83bae13.mp4
+
+
 
 
 
