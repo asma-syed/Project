@@ -24,7 +24,7 @@ namespace TEST
 
         }
         private AppSettings appSettings = new AppSettings()
-           {
+        {
               serviceFourURL = "https://asma-alias-merge.azurewebsites.net"
         };
 
