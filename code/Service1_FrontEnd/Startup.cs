@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Service1_FrontEnd.Data;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -39,6 +41,8 @@ namespace Service1_FrontEnd
             services.Configure<AppSettings>(options => Configuration.GetSection("AppSettings").Bind(options));
             services.AddHttpClient();
             services.AddControllersWithViews();
+            var myConnectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<AppDbContext>(options => options.UseMySql(myConnectionString, ServerVersion.AutoDetect(myConnectionString)));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
