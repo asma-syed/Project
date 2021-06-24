@@ -22,7 +22,7 @@ namespace Service2.Controllers
         public ActionResult<string> Get()
         {
             var random = new Random();
-            var returnIndex = random.Next(0, 20);
+            var returnIndex = random.Next(0, 2);
             return Names[returnIndex].ToString();
         }
     }
