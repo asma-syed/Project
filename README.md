@@ -93,8 +93,3 @@ https://user-images.githubusercontent.com/82107383/123139422-19c7e380-d44e-11eb-
 Here is an example of the CI pipeline
 
 https://user-images.githubusercontent.com/82107383/123139879-95c22b80-d44e-11eb-8df2-3ab0b83bae13.mp4
-
-
-
-
-

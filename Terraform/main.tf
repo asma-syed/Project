@@ -57,3 +57,26 @@ resource "azurerm_app_service" "webapp" {
      "surnamesServiceURL" = "https://asma-alias-surnames2.azurewebsites.net"  
      "serviceFourURL" = "https://asma-alias-merge.azurewebsites.net"
   }
+
+  resource "azurerm_mysql_server" "webapp" {
+  name                         = "aliasmadb"
+  location                     = "uksouth"
+  resource_group_name          = azurerm_resource_group.rg.name
+  sku_name                     = "B_Gen5_1"
+  storage_mb                   = 5120
+  version                      = "8.0"
+  ssl_enforcement_enabled           = true
+  ssl_minimal_tls_version_enforced  = "TLS1_2"
+
+  administrator_login          = "asma"
+  administrator_login_password = "ViaMoz4rT"
+
+}
+
+resource "azurerm_mysql_database" "webapp" {
+  name                = "aliasmadbns"
+  resource_group_name = azurerm_resource_group.rg.name
+  server_name         = azurerm_mysql_server.webapp.name
+  charset             = "utf8"
+  collation           = "utf8_unicode_ci"
+}
