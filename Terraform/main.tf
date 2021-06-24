@@ -58,6 +58,7 @@ resource "azurerm_app_service" "webapp" {
      "serviceFourURL" = "https://asma-alias-merge.azurewebsites.net"
   }
 
+
   resource "azurerm_mysql_server" "webapp" {
   name                         = "aliasmadb"
   location                     = "uksouth"
@@ -79,4 +80,5 @@ resource "azurerm_mysql_database" "webapp" {
   server_name         = azurerm_mysql_server.webapp.name
   charset             = "utf8"
   collation           = "utf8_unicode_ci"
+}
 }
